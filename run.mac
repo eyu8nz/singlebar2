@@ -4,7 +4,8 @@
 # initialization of G4GeneralParticleSource
 
 # beam
-/gps/energy 1 GeV
+/gps/energy 120 GeV
+/gps/particle proton
 #/gps/particle mu-
 #/gps/particle gamma
 #/gps/particle pi-
@@ -14,8 +15,8 @@
 /gps/pos/type Plane
 /gps/pos/shape Square
 
-/gps/pos/halfx 0.5 mm
-/gps/pos/halfy 0.5 mm
+/gps/pos/halfx 12.5 mm
+/gps/pos/halfy 12.5 mm
 /gps/pos/centre 0  0 50 mm
 /gps/direction 0 0 1
 
@@ -47,4 +48,4 @@
 #/gps/particle gamma
 #/gps/ang/type iso
 
-/run/beamOn 10
+/run/beamOn 8000

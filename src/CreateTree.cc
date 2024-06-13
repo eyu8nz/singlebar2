@@ -100,10 +100,10 @@ CreateTree::CreateTree(const TString name)
   h_phot_lambda_SiPMS_r_Ceren = new TH1F("h_phot_lambda_SiPMS_r_Ceren", "Cerenkov Photon lambda SiPMS;[nm]", 
 					 1250, 0., 1250.);
   //generated photons
-  h_phot_lambda_ECAL_f_produce_Scin = new TH1F("h_phot_lambda_ECAL_f_produce_Scin", "Scint Photon lambda (front);[nm]", 1250, 0., 1250.);
-  h_phot_lambda_ECAL_r_produce_Scin = new TH1F("h_phot_lambda_ECAL_r_produce_Scin", "Scint Photon lambda (rear);[nm]", 1250, 0., 1250.);
-  h_phot_lambda_ECAL_f_produce_Ceren = new TH1F("h_phot_lambda_ECAL_f_produce_Ceren", "Cerenkov Photon lambda (front);[nm]", 1250, 0., 1250.);
-  h_phot_lambda_ECAL_r_produce_Ceren = new TH1F("h_phot_lambda_ECAL_r_produce_Ceren", "Cerenkov Photon lambda (rear);[nm]", 1250, 0., 1250.);
+  h_phot_lambda_ECAL_f_produce_Scin = new TH1D("h_phot_lambda_ECAL_f_produce_Scin", "Scint Photon lambda (front);[nm]", 1250, 0., 1250.);
+  h_phot_lambda_ECAL_r_produce_Scin = new TH1D("h_phot_lambda_ECAL_r_produce_Scin", "Scint Photon lambda (rear);[nm]", 1250, 0., 1250.);
+  h_phot_lambda_ECAL_f_produce_Ceren = new TH1D("h_phot_lambda_ECAL_f_produce_Ceren", "Cerenkov Photon lambda (front);[nm]", 1250, 0., 1250.);
+  h_phot_lambda_ECAL_r_produce_Ceren = new TH1D("h_phot_lambda_ECAL_r_produce_Ceren", "Cerenkov Photon lambda (rear);[nm]", 1250, 0., 1250.);
   h_phot_time_ECAL_f_produce_Scin = new TH1F("h_phot_time_ECAL_f_produce_Scin", "Scint Photon time (front);[ns]", 500, 0., 50.);
   h_phot_time_ECAL_r_produce_Scin = new TH1F("h_phot_time_ECAL_r_produce_Scin", "Scint Photon time (rear);[ns]", 500, 0., 50.);
   h_phot_time_ECAL_f_produce_Ceren = new TH1F("h_phot_time_ECAL_f_produce_Ceren", "Cerenkov Photon time (front);[ns]", 500, 0., 50.);
